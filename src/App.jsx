@@ -15,6 +15,7 @@ function App() {
       <BrowserRouter>
         <Routes>
             <Route index element={<Signup />} />
+            <Route path='/todo-app' element={<Signup />} /> 
             <Route path='/signup' element={<Signup />} /> 
             <Route path='/signin' element={<Signin />} /> 
             <Route path='/tasks' element={<HomePage />} /> 
